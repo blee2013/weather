@@ -1,7 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
 /* header */
 
+h1 {
+    color: yellow;
+}
+
+.jumbotron {
+    background-color: black;
+}
 /* Current City title */
+.row{
+    display:flex;
+}
+
+img {
+    width:50px;
+}
 
 /* weather card */
+.group-list-item{
+    line-height: 0.5;
+    border: none;
+}
 
 /* 5 days cards */

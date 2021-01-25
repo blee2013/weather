@@ -4,41 +4,27 @@ Developers are often tasked with retrieving data from another application's API 
 
 Use the [OpenWeather API](https://openweathermap.org/api) to retrieve weather data for cities. The documentation includes a section called "How to start" that will provide basic setup and usage instructions. Use `localStorage` to store any persistent data.
 
-## User Story
+## Weather Dashboard
 
-```
-AS A traveler
-I WANT to see the weather outlook for multiple cities
-SO THAT I can plan a trip accordingly
-```
+## Purpose
 
-## Acceptance Criteria
+This is a web-based weather dashboard that is built to show you the weather of a current city and its forecast for 5 days when you search. 
 
-```
-GIVEN a weather dashboard with form inputs
-WHEN I search for a city
-THEN I am presented with current and future conditions for that city and that city is added to the search history
-WHEN I view current weather conditions for that city
-THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, the wind speed, and the UV index
-WHEN I view the UV index
-THEN I am presented with a color that indicates whether the conditions are favorable, moderate, or severe
-WHEN I view future weather conditions for that city
-THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, and the humidity
-WHEN I click on a city in the search history
-THEN I am again presented with current and future conditions for that city
-```
+It will display the city name, temperature, date, humidity, wind speed and UV Index for the city at that particular time along withh an icon. You owill also see displayed the temperature, date, humidity and wind speed for the following five days along with an icon.
 
-The following image demonstrates the application functionality:
+UV Index is indicated with red, yelllow, or green to display the severity of index. 
 
-![weather dashboard demo](./Assets/06-server-side-apis-homework-demo.png)
+Once you have searched a city, it will display on the left side of the screen for you to easily navigate back to that city. 
 
-## Review
+## Website
+* HTML
+* Javascript
+* CSS
+* Bootstrap
+* Moment.js
+* Open Weather API
 
-You are required to submit the following for review:
+https://blee2013.github.io/weather/
 
-* The URL of the deployed application.
+![weather dashboard demo](assets/images/Weather-Dashboard.png)
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
